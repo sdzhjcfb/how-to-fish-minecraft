@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fishmash",
+  "version": "${version}",
+  "name": "Fish Mashup (How to Fish x Minecraft)",
+  "description": "Brings How to Fish content into Minecraft, read from the player's own How to Fish install.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "gg.fishmash.FishMashMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
